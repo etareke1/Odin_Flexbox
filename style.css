@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: #2a3749;
+    padding-left: 25vh;
+    padding-right: 25vh;
+    padding-bottom: 15vh;
+    flex:1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .navbar h2{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header .navbar li, .header-main p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+.header-main h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+.header-main button {
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 15px 30px;
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 1em;
+} 
+
+.header-main .header-img {
+    background-color: grey;
+    width: 500px;
+    height: 180px;
+}
+
+.header-main .header-img p {
+    color:#E5E7EB;
+}
+
+.container-2 {
+    flex:1;
+}
+
+.container-3 {
+    flex: 1;
+    background-color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15vh 40vh;
+}
+
+.container-3 p {
+    font-size: 36px;
+    color: #2a3749;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.container-3 #Thor {
+    text-align: right;
+    font-weight:bold;
+    color: #2a3749;
+}
+
+.container-4 {
+    flex:1;
+}
+
+.footer {
+    background-color: #2a3749;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    color:#E5E7EB;
+    
+}
