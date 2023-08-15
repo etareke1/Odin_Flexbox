@@ -31,7 +31,7 @@ body {
 .header ul{
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 .header-main {
@@ -44,19 +44,27 @@ body {
 .header-main h1 {
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.header-text p {
+    margin-top: 5px;
 }
 
 .header-main button {
     color: #F9FAF8;
     font-weight: bold;
-    padding: 15px 30px;
+    padding: 10px 40px;
     background-color: #3882F6;
     border-style: none;
     border-radius: 1em;
 } 
 
 .header-main .header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: grey;
     width: 500px;
     height: 180px;
@@ -68,6 +76,33 @@ body {
 
 .container-2 {
     flex:1;
+    text-align: center;
+}
+
+.container-2 h1 {
+    padding: 15px;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#2a3749;
+}
+
+.container-2 .boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 80px;
+}
+
+.container-2 .boxes .box-with-text {
+    width: 200px;
+}
+
+.container-2 .boxes .box-with-text div {
+    width: 180px;
+    height: 180px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 1em;
 }
 
 .container-3 {
@@ -94,6 +129,41 @@ body {
 
 .container-4 {
     flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0;
+}
+
+.container-4 h2 {
+    color:#F9FAF8;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.container-4 p {
+    color:#E5E7EB;
+    margin-top: 0;
+}
+
+.call-to-action {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 1em;
+    padding: 5vh 15vh;
+    width: 1200px;
+}
+
+.call-to-action button {
+    border-style: solid;
+    border-radius: 1em;
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 10px 40px;
+    font-weight: bolder;
+    color:#F9FAF8
 }
 
 .footer {
@@ -101,6 +171,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
 .footer p {
